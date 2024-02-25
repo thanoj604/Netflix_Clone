@@ -1,0 +1,562 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(Assets/img/bg.jpg);
+    height: 70vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box {
+    height: 70vh;
+    width: 100%;
+    opacity: 0.54;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+}
+
+.navBar {
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    height: 62px;
+}
+
+.Logo img {
+    color: red;
+    width: 150px;
+    position: relative;
+    z-index: 10;
+    top: 12px;
+    left: 100px;
+
+}
+
+.navBtn button {
+    position: relative;
+    z-index: 10;
+    padding: 10px 20px;
+    font-weight: bold;
+    top: 12px;
+    transition: all 0.2s ease;
+}
+
+.BtnEng {
+    background: none;
+    color: white;
+    border: 1px solid rgb(143, 141, 141);
+    padding: 6px 40px;
+    border-radius: 5px;
+}
+
+.sign {
+    position: relative;
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.sign:hover {
+    background-color: rgb(177, 16, 16);
+    color: white;
+
+}
+
+.getBtn {
+    background-color: red;
+    color: white;
+    padding: 18px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+
+}
+
+
+.getBtn:hover {
+    background-color: rgb(197, 8, 8);
+    color: white;
+    padding: 18px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.search input {
+    padding: 18px 50px;
+    background: none;
+    border: 0.5px solid rgb(75, 74, 74);
+    font-size: 20px;
+    border-radius: 6px;
+    color: white;
+    width: 300px;
+    font-size: 16px;
+    font-weight: bold;
+
+
+}
+
+.hero {
+    position: relative;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+    z-index: 10;
+    padding: 0px 30px;
+    gap: 23px;
+
+}
+
+.sp1 {
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 48px;
+    text-align: center;
+}
+
+.sp2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.sp3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 50;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+
+.sep {
+    height: 6px;
+    background-color: rgb(77, 76, 76);
+    opacity: 40;
+    position: relative;
+    z-index: 20;
+}
+
+.one {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.oneTxt {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.txt1 {
+    font-size: 60px;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    margin: 20px 0px;
+}
+
+.txt2 {
+    font-family: "Martel Sans", sans-serif;
+    font-size: 21px;
+    width: 600px;
+
+}
+
+.oneImg {
+    position: relative;
+}
+
+.oneImg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+}
+
+.oneImg video {
+    position: absolute;
+    top: 51px;
+    right: 0px;
+    left: 74px;
+    width: 441px;
+    height: 320px;
+    margin: 10px
+}
+
+
+
+
+.oneImg2 {
+    position: relative;
+}
+
+.oneImg2 img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+    margin: 10px;
+}
+
+.oneImg2 video {
+    position: absolute;
+    top: 44px;
+    left: 15px;
+    width: 511px;
+    height: 195px;
+    margin: 10px;
+}
+
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 32px;
+
+}
+
+.faq h1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px;
+
+}
+
+
+
+
+.faqBox {
+    display: flex;
+    background-color: rgb(32, 32, 32);
+    padding: 26px;
+    max-width: 60vw;
+    margin: 12px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 1s ease-out;
+
+}
+
+.faqBox:hover {
+
+    background-color: rgb(83, 81, 81);
+
+}
+
+.faqBox span {
+    font-size: 25px;
+}
+
+
+.mainFoot {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#eng1 {
+    background: none;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 5px;
+    position: relative;
+    z-index: 30;
+    top: 12px;
+    right: 20px;
+
+}
+
+#eng1 option {
+    color: black;
+}
+
+#eng1 option:hover {
+    color: white;
+}
+
+
+#eng2 {
+    background: none;
+    color: white;
+    padding: 6px 40px;
+    border-radius: 5px;
+
+}
+
+#eng2 option {
+    color: black;
+}
+
+#eng2 option:hover {
+    color: white;
+}
+
+
+
+.footitems {
+    margin: 54px 0px;
+    padding: 5px;
+}
+
+.footitems li {
+    padding: 10px;
+    color: rgb(156 179 179);
+    list-style-type: none;
+}
+
+.footitems li a {
+    color: rgb(156 179 179);
+
+}
+
+@media only screen and (max-width: 404px) {
+
+
+    .Logo img {
+        color: red;
+        width: 95px;
+        position: relative;
+        z-index: 10;
+        top: 12px;
+        left: 8px;
+
+    }
+
+    #eng1 {
+
+        background: none;
+        color: white;
+        padding: 5px 5px;
+        border-radius: 5px;
+        position: relative;
+        z-index: 30;
+        top: 12px;
+        right: 20px;
+
+    }
+
+    .sp1 {
+        font-family: "Martel Sans", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 36px;
+        text-align: center;
+    }
+
+    .sp2 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 50;
+        font-style: normal;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .sp3 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 50;
+        font-style: normal;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .navBtn button {
+        position: relative;
+        z-index: 10;
+        padding: 4px 15px;
+        font-weight: bold;
+        top: 12px;
+        transition: all 0.2s ease;
+    }
+
+    .sign:hover {
+        background-color: rgb(177, 16, 16);
+        color: white;
+        position: relative;
+        z-index: 10;
+        padding: 4px 15px;
+        font-weight: bold;
+        top: 12px;
+        transition: all 0.2s ease;
+    }
+
+
+    .navBar {
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-between;
+        max-width: 90vw;
+        margin: auto;
+        align-items: center;
+        height: 62px;
+    }
+
+    .search{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search input {
+        padding: 15px 40px;
+        background: none;
+        border: 0.5px solid rgb(75, 74, 74);
+        font-size: 16px;
+        border-radius: 6px;
+        color: white;
+        width: 195px;
+        font-weight: bold;
+        margin: 10px;
+    }
+
+    .getBtn {
+        background-color: red;
+        color: white;
+        padding: 12px 22px;
+        font-size: 14px;
+        font-weight: bold;
+        border-radius: 6px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.2s ease-out;
+    }
+
+    .hero {
+        position: relative;
+        height: 89%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 28px;
+        z-index: 10;
+        padding: 0px 30px;
+        gap: 23px;
+    
+    }
+
+    .oneTxt {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        text-align: center;
+    }
+
+    .txt1 {
+        font-size: 32px;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold;
+        font-style: normal;
+        margin: 20px 0px;
+    }
+
+    .txt2 {
+        font-family: "Martel Sans", sans-serif;
+        font-size: 18px;
+        width: 300px;
+        margin: 20px;
+
+    }
+
+    .oneImg img {
+        width: 323px;
+        position: relative;
+        z-index: 10;
+        margin: 10px;
+    }
+
+    .oneImg video {
+        position: absolute;
+        top: -27px;
+        right: 0px;
+        left: 45px;
+        width: 275px;
+        height: 320px;
+        margin: 10px;
+    }
+
+
+    .oneImg2 img {
+        width: 333px;
+        position: relative;
+        z-index: 10;
+        margin: 10px;
+    }
+
+    .oneImg2 video {
+        position: absolute;
+        top: 29px;
+        left: 56px;
+        width: 216px;
+        height: 119px;
+        margin: 10px;
+    }
+
+    .faqBox span {
+        font-size: 12px;
+    }
+
+    .footitems li {
+        padding: 10px;
+        color: rgb(156 179 179);
+        list-style-type: none;
+        font-size: 10px;
+    }
+
+
+    .footitems li a {
+        color: rgb(156 179 179);
+        font-size: 10px;
+    
+    }
+
+    .footitems {
+        margin: 54px 0px;
+        padding: 0px;
+    }
+
+    .mainFoot {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+
+}    
